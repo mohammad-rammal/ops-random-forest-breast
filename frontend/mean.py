@@ -38,7 +38,7 @@ input_data = {
 }
 
 st.write(input_data)
-response = requests.post("http://192.168.0.103:8000/predict", 
+response = requests.post("http://0.0.0.0:8000/predict", 
                         json=input_data)
 
 # prediction from backend
