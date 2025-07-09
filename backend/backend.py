@@ -32,4 +32,5 @@ async def predict_cancer(data: dict):
   return {"class": class_name}
 
 
-# uvicorn backend:app --reload --host 192.168.0.103 --port 8000
+# uvicorn backend:app --reload --host 172.30.112.1 --port 8000
+# uvicorn backend:app --reload --host 0.0.0.0 --port 8000
