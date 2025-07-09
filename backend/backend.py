@@ -22,7 +22,7 @@ model = joblib.load("../model-storage/forest.joblib")
 
 @app.get("/")
 async def root():
-  return {"message: " : "Welcome to our API page!"}
+  return {"message": "Welcome to the API Page for Ops Random Forest Breast Cancer Classifier!"}
 
 @app.post("/predict/")
 async def predict_cancer(data: dict):
